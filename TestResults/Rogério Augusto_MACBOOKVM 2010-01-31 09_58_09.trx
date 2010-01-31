@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="da2aeb0b-5d3b-48fd-a000-1fca22a5dc00" name="Rogério Augusto@MACBOOKVM 2010-01-31 09:58:09" runUser="MacBookVM\Rogério Augusto" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="08443768-adce-4fa3-bb05-8648206f458b">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Rogério Augusto_MACBOOKVM 2010-01-31 09_58_09">
+      <DeploymentItem filename="C:\Users\Rogério Augusto\Documents\Visual Studio 2010\Projects\Potter\Domain\bin\Debug\Domain.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-01-31T09:58:09.4736328-02:00" queuing="2010-01-31T09:58:09.6171875-02:00" start="2010-01-31T09:58:10.0390625-02:00" finish="2010-01-31T09:58:11.3085937-02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="6" executed="6" passed="6" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="FourDifferentBooksShouldGiveTwentyPercentDiscount" storage="c:\users\rogério augusto\documents\visual studio 2010\projects\potter\potterdomaintest\bin\debug\potterdomaintest.dll" id="81faae35-56dd-1bd8-ff44-a92ca9ad085e">
+      <Execution id="5d9032d7-2b36-494b-b98c-90c6ff02a893" />
+      <TestMethod codeBase="C:/Users/Rogério Augusto/documents/visual studio 2010/Projects/Potter/PotterDomainTest/bin/Debug/PotterDomainTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PotterDomainTest.BasketDiscountsTest, PotterDomainTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FourDifferentBooksShouldGiveTwentyPercentDiscount" />
+    </UnitTest>
+    <UnitTest name="TwoDifferentBooksShouldGiveFivePercentDiscount" storage="c:\users\rogério augusto\documents\visual studio 2010\projects\potter\potterdomaintest\bin\debug\potterdomaintest.dll" id="9f1f1ae2-d2b6-115a-e0de-e08cc832815c">
+      <Execution id="6df699ce-7911-4baf-b417-3b6d08ff0034" />
+      <TestMethod codeBase="C:/Users/Rogério Augusto/documents/visual studio 2010/Projects/Potter/PotterDomainTest/bin/Debug/PotterDomainTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PotterDomainTest.BasketDiscountsTest, PotterDomainTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TwoDifferentBooksShouldGiveFivePercentDiscount" />
+    </UnitTest>
+    <UnitTest name="ThreeDifferentBooksShouldGiveTenPercentDiscount" storage="c:\users\rogério augusto\documents\visual studio 2010\projects\potter\potterdomaintest\bin\debug\potterdomaintest.dll" id="7d0a6d82-27a8-a788-c026-0a8e357f7594">
+      <Execution id="891b93b6-e0fd-41d8-ad1a-786080702976" />
+      <TestMethod codeBase="C:/Users/Rogério Augusto/documents/visual studio 2010/Projects/Potter/PotterDomainTest/bin/Debug/PotterDomainTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PotterDomainTest.BasketDiscountsTest, PotterDomainTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ThreeDifferentBooksShouldGiveTenPercentDiscount" />
+    </UnitTest>
+    <UnitTest name="BasketShouldGiveDiscountsGroupingBookSequences" storage="c:\users\rogério augusto\documents\visual studio 2010\projects\potter\potterdomaintest\bin\debug\potterdomaintest.dll" id="1d4125c7-c2a4-c3e0-e417-641788e06690">
+      <Execution id="96ffcc60-c64d-4fd8-99bb-5da22d506cf1" />
+      <TestMethod codeBase="C:/Users/Rogério Augusto/documents/visual studio 2010/Projects/Potter/PotterDomainTest/bin/Debug/PotterDomainTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PotterDomainTest.BasketDiscountsTest, PotterDomainTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BasketShouldGiveDiscountsGroupingBookSequences" />
+    </UnitTest>
+    <UnitTest name="FiveDifferentBooksShouldGiveTwentyFivePercentDiscount" storage="c:\users\rogério augusto\documents\visual studio 2010\projects\potter\potterdomaintest\bin\debug\potterdomaintest.dll" id="7f0832ce-c3e3-bdb6-e07d-e44de48f4092">
+      <Execution id="94bc7e8e-56a0-4e6c-90ac-c29cda3993fb" />
+      <TestMethod codeBase="C:/Users/Rogério Augusto/documents/visual studio 2010/Projects/Potter/PotterDomainTest/bin/Debug/PotterDomainTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PotterDomainTest.BasketDiscountsTest, PotterDomainTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FiveDifferentBooksShouldGiveTwentyFivePercentDiscount" />
+    </UnitTest>
+    <UnitTest name="OneOrMoreFromTheSameItemShouldNotGetDiscount" storage="c:\users\rogério augusto\documents\visual studio 2010\projects\potter\potterdomaintest\bin\debug\potterdomaintest.dll" id="1f26d5bc-41a7-9a59-f7d2-062a29e879c8">
+      <Execution id="494a91f0-1664-4139-b385-2e04c7864f82" />
+      <TestMethod codeBase="C:/Users/Rogério Augusto/documents/visual studio 2010/Projects/Potter/PotterDomainTest/bin/Debug/PotterDomainTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PotterDomainTest.BasketDiscountsTest, PotterDomainTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OneOrMoreFromTheSameItemShouldNotGetDiscount" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1d4125c7-c2a4-c3e0-e417-641788e06690" executionId="96ffcc60-c64d-4fd8-99bb-5da22d506cf1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1f26d5bc-41a7-9a59-f7d2-062a29e879c8" executionId="494a91f0-1664-4139-b385-2e04c7864f82" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7d0a6d82-27a8-a788-c026-0a8e357f7594" executionId="891b93b6-e0fd-41d8-ad1a-786080702976" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7f0832ce-c3e3-bdb6-e07d-e44de48f4092" executionId="94bc7e8e-56a0-4e6c-90ac-c29cda3993fb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="81faae35-56dd-1bd8-ff44-a92ca9ad085e" executionId="5d9032d7-2b36-494b-b98c-90c6ff02a893" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9f1f1ae2-d2b6-115a-e0de-e08cc832815c" executionId="6df699ce-7911-4baf-b417-3b6d08ff0034" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="96ffcc60-c64d-4fd8-99bb-5da22d506cf1" testId="1d4125c7-c2a4-c3e0-e417-641788e06690" testName="BasketShouldGiveDiscountsGroupingBookSequences" computerName="MACBOOKVM" duration="00:00:00.0267369" startTime="2010-01-31T09:58:10.2431640-02:00" endTime="2010-01-31T09:58:10.9570312-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="96ffcc60-c64d-4fd8-99bb-5da22d506cf1">
+    </UnitTestResult>
+    <UnitTestResult executionId="494a91f0-1664-4139-b385-2e04c7864f82" testId="1f26d5bc-41a7-9a59-f7d2-062a29e879c8" testName="OneOrMoreFromTheSameItemShouldNotGetDiscount" computerName="MACBOOKVM" duration="00:00:00.0012186" startTime="2010-01-31T09:58:10.9824219-02:00" endTime="2010-01-31T09:58:10.9892578-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="494a91f0-1664-4139-b385-2e04c7864f82">
+    </UnitTestResult>
+    <UnitTestResult executionId="891b93b6-e0fd-41d8-ad1a-786080702976" testId="7d0a6d82-27a8-a788-c026-0a8e357f7594" testName="ThreeDifferentBooksShouldGiveTenPercentDiscount" computerName="MACBOOKVM" duration="00:00:00.0040738" startTime="2010-01-31T09:58:10.9970703-02:00" endTime="2010-01-31T09:58:11.0136719-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="891b93b6-e0fd-41d8-ad1a-786080702976">
+    </UnitTestResult>
+    <UnitTestResult executionId="94bc7e8e-56a0-4e6c-90ac-c29cda3993fb" testId="7f0832ce-c3e3-bdb6-e07d-e44de48f4092" testName="FiveDifferentBooksShouldGiveTwentyFivePercentDiscount" computerName="MACBOOKVM" duration="00:00:00.0015421" startTime="2010-01-31T09:58:11.0332031-02:00" endTime="2010-01-31T09:58:11.0400390-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="94bc7e8e-56a0-4e6c-90ac-c29cda3993fb">
+    </UnitTestResult>
+    <UnitTestResult executionId="5d9032d7-2b36-494b-b98c-90c6ff02a893" testId="81faae35-56dd-1bd8-ff44-a92ca9ad085e" testName="FourDifferentBooksShouldGiveTwentyPercentDiscount" computerName="MACBOOKVM" duration="00:00:00.0031489" startTime="2010-01-31T09:58:11.0507812-02:00" endTime="2010-01-31T09:58:11.0576172-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5d9032d7-2b36-494b-b98c-90c6ff02a893">
+    </UnitTestResult>
+    <UnitTestResult executionId="6df699ce-7911-4baf-b417-3b6d08ff0034" testId="9f1f1ae2-d2b6-115a-e0de-e08cc832815c" testName="TwoDifferentBooksShouldGiveFivePercentDiscount" computerName="MACBOOKVM" duration="00:00:00.0035405" startTime="2010-01-31T09:58:11.0683594-02:00" endTime="2010-01-31T09:58:11.0771484-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6df699ce-7911-4baf-b417-3b6d08ff0034">
+    </UnitTestResult>
+  </Results>
+</TestRun>

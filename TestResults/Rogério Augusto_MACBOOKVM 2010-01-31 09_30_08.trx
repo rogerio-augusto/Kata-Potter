@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e687a915-f02d-4a38-8bb4-459d3eeddef3" name="Rogério Augusto@MACBOOKVM 2010-01-31 09:30:08" runUser="MacBookVM\Rogério Augusto" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="08443768-adce-4fa3-bb05-8648206f458b">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Rogério Augusto_MACBOOKVM 2010-01-31 09_30_08">
+      <DeploymentItem filename="C:\Users\Rogério Augusto\Documents\Visual Studio 2010\Projects\Potter\Domain\bin\Debug\Domain.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-01-31T09:30:08.6259765-02:00" queuing="2010-01-31T09:30:08.7490234-02:00" start="2010-01-31T09:30:09.3212890-02:00" finish="2010-01-31T09:30:11.0292969-02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="1" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="BasketShouldRemoveItemsWithZeroQuantity" storage="c:\users\rogério augusto\documents\visual studio 2010\projects\potter\potterdomaintest\bin\debug\potterdomaintest.dll" id="9d70741a-bb8d-ab5c-248c-f6789a8ab9b5">
+      <Execution id="4f779a0c-e703-427f-b1b1-1bbe5805311a" />
+      <TestMethod codeBase="C:/Users/Rogério Augusto/documents/visual studio 2010/Projects/Potter/PotterDomainTest/bin/Debug/PotterDomainTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PotterDomainTest.BasketTest, PotterDomainTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BasketShouldRemoveItemsWithZeroQuantity" />
+    </UnitTest>
+    <UnitTest name="BasketShouldNotAddItemsWithZeroQuantity" storage="c:\users\rogério augusto\documents\visual studio 2010\projects\potter\potterdomaintest\bin\debug\potterdomaintest.dll" id="c818e51d-f78e-fe91-9188-7263ab56496e">
+      <Execution id="c1de6c39-9d6c-4ae6-bcb4-e9a83308ccfc" />
+      <TestMethod codeBase="C:/Users/Rogério Augusto/documents/visual studio 2010/Projects/Potter/PotterDomainTest/bin/Debug/PotterDomainTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PotterDomainTest.BasketTest, PotterDomainTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BasketShouldNotAddItemsWithZeroQuantity" />
+    </UnitTest>
+    <UnitTest name="BasketShouldReplaceTheQuantityForExistingItems" storage="c:\users\rogério augusto\documents\visual studio 2010\projects\potter\potterdomaintest\bin\debug\potterdomaintest.dll" id="15cf9191-82a8-7ff4-78c6-c1716fd72a8e">
+      <Execution id="b58fbdc5-3676-46d2-96f6-af2a5eac4103" />
+      <TestMethod codeBase="C:/Users/Rogério Augusto/documents/visual studio 2010/Projects/Potter/PotterDomainTest/bin/Debug/PotterDomainTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PotterDomainTest.BasketTest, PotterDomainTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BasketShouldReplaceTheQuantityForExistingItems" />
+    </UnitTest>
+    <UnitTest name="ShouldAddNewItemsToTheBasket" storage="c:\users\rogério augusto\documents\visual studio 2010\projects\potter\potterdomaintest\bin\debug\potterdomaintest.dll" id="109323fa-ce35-31e9-3bd4-ea8640a78e13">
+      <Execution id="9f209c08-5b21-42a5-a989-3304eae3e9af" />
+      <TestMethod codeBase="C:/Users/Rogério Augusto/documents/visual studio 2010/Projects/Potter/PotterDomainTest/bin/Debug/PotterDomainTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PotterDomainTest.BasketTest, PotterDomainTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldAddNewItemsToTheBasket" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="109323fa-ce35-31e9-3bd4-ea8640a78e13" executionId="9f209c08-5b21-42a5-a989-3304eae3e9af" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="15cf9191-82a8-7ff4-78c6-c1716fd72a8e" executionId="b58fbdc5-3676-46d2-96f6-af2a5eac4103" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9d70741a-bb8d-ab5c-248c-f6789a8ab9b5" executionId="4f779a0c-e703-427f-b1b1-1bbe5805311a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c818e51d-f78e-fe91-9188-7263ab56496e" executionId="c1de6c39-9d6c-4ae6-bcb4-e9a83308ccfc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9f209c08-5b21-42a5-a989-3304eae3e9af" testId="109323fa-ce35-31e9-3bd4-ea8640a78e13" testName="ShouldAddNewItemsToTheBasket" computerName="MACBOOKVM" duration="00:00:00.1455791" startTime="2010-01-31T09:30:09.5429687-02:00" endTime="2010-01-31T09:30:10.5703125-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f209c08-5b21-42a5-a989-3304eae3e9af">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. Basket does not contain the required item</Message>
+          <StackTrace>   at PotterDomainTest.BasketTest.ShouldAddNewItemsToTheBasket() in C:\Users\Rogério Augusto\documents\visual studio 2010\Projects\Potter\PotterDomainTest\Basket\BasketItemsTest.cs:line 25
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b58fbdc5-3676-46d2-96f6-af2a5eac4103" testId="15cf9191-82a8-7ff4-78c6-c1716fd72a8e" testName="BasketShouldReplaceTheQuantityForExistingItems" computerName="MACBOOKVM" duration="00:00:00.0034094" startTime="2010-01-31T09:30:10.6162109-02:00" endTime="2010-01-31T09:30:10.6289062-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b58fbdc5-3676-46d2-96f6-af2a5eac4103">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. Error changing the item quantity</Message>
+          <StackTrace>   at PotterDomainTest.BasketTest.BasketShouldReplaceTheQuantityForExistingItems() in C:\Users\Rogério Augusto\documents\visual studio 2010\Projects\Potter\PotterDomainTest\Basket\BasketItemsTest.cs:line 38
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4f779a0c-e703-427f-b1b1-1bbe5805311a" testId="9d70741a-bb8d-ab5c-248c-f6789a8ab9b5" testName="BasketShouldRemoveItemsWithZeroQuantity" computerName="MACBOOKVM" duration="00:00:00.0022781" startTime="2010-01-31T09:30:10.6591797-02:00" endTime="2010-01-31T09:30:10.6679687-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f779a0c-e703-427f-b1b1-1bbe5805311a">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. Item was not inserted</Message>
+          <StackTrace>   at PotterDomainTest.BasketTest.BasketShouldRemoveItemsWithZeroQuantity() in C:\Users\Rogério Augusto\documents\visual studio 2010\Projects\Potter\PotterDomainTest\Basket\BasketItemsTest.cs:line 57
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c1de6c39-9d6c-4ae6-bcb4-e9a83308ccfc" testId="c818e51d-f78e-fe91-9188-7263ab56496e" testName="BasketShouldNotAddItemsWithZeroQuantity" computerName="MACBOOKVM" duration="00:00:00.0014809" startTime="2010-01-31T09:30:10.6835937-02:00" endTime="2010-01-31T09:30:10.6923828-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c1de6c39-9d6c-4ae6-bcb4-e9a83308ccfc">
+    </UnitTestResult>
+  </Results>
+</TestRun>

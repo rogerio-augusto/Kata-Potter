@@ -1,0 +1,7 @@
+c:\users\rogério augusto\documents\visual studio 2010\Projects\Potter\PotterDomainTest\bin\Debug\PotterDomainTest.dll
+c:\users\rogério augusto\documents\visual studio 2010\Projects\Potter\PotterDomainTest\bin\Debug\PotterDomainTest.pdb
+c:\users\rogério augusto\documents\visual studio 2010\Projects\Potter\PotterDomainTest\bin\Debug\Domain.dll
+c:\users\rogério augusto\documents\visual studio 2010\Projects\Potter\PotterDomainTest\bin\Debug\Domain.pdb
+c:\users\rogério augusto\documents\visual studio 2010\Projects\Potter\PotterDomainTest\obj\Debug\ResolveAssemblyReference.cache
+c:\users\rogério augusto\documents\visual studio 2010\Projects\Potter\PotterDomainTest\obj\Debug\PotterDomainTest.dll
+c:\users\rogério augusto\documents\visual studio 2010\Projects\Potter\PotterDomainTest\obj\Debug\PotterDomainTest.pdb

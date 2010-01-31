@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="091936a9-671e-43e1-85af-7b919ad91b80" name="Rogério Augusto@MACBOOKVM 2010-01-31 08:32:38" runUser="MacBookVM\Rogério Augusto" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="08443768-adce-4fa3-bb05-8648206f458b">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Rogério Augusto_MACBOOKVM 2010-01-31 08_32_38">
+      <DeploymentItem filename="C:\Users\Rogério Augusto\Documents\Visual Studio 2010\Projects\Potter\Domain\bin\Debug\Domain.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-01-31T08:32:38.5664062-02:00" queuing="2010-01-31T08:32:39.4052734-02:00" start="2010-01-31T08:32:39.7275390-02:00" finish="2010-01-31T08:32:41.1865234-02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="OneOrMoreFromTheSameItemShouldNotGetDiscount" storage="c:\users\rogério augusto\documents\visual studio 2010\projects\potter\potterdomaintest\bin\debug\potterdomaintest.dll" id="1f26d5bc-41a7-9a59-f7d2-062a29e879c8">
+      <Execution id="94892bbc-641b-447c-b57f-a5271ce2b4ff" />
+      <TestMethod codeBase="C:/Users/Rogério Augusto/documents/visual studio 2010/Projects/Potter/PotterDomainTest/bin/Debug/PotterDomainTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PotterDomainTest.BasketDiscountsTest, PotterDomainTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OneOrMoreFromTheSameItemShouldNotGetDiscount" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1f26d5bc-41a7-9a59-f7d2-062a29e879c8" executionId="94892bbc-641b-447c-b57f-a5271ce2b4ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="94892bbc-641b-447c-b57f-a5271ce2b4ff" testId="1f26d5bc-41a7-9a59-f7d2-062a29e879c8" testName="OneOrMoreFromTheSameItemShouldNotGetDiscount" computerName="MACBOOKVM" duration="00:00:00.2612305" startTime="2010-01-31T08:32:39.8564453-02:00" endTime="2010-01-31T08:32:40.9160156-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="94892bbc-641b-447c-b57f-a5271ce2b4ff">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;16&gt;. Actual:&lt;8&gt;. </Message>
+          <StackTrace>   at PotterDomainTest.BasketDiscountsTest.OneOrMoreFromTheSameItemShouldNotGetDiscount() in C:\Users\Rogério Augusto\documents\visual studio 2010\Projects\Potter\PotterDomainTest\Basket\BasketDiscountsTest.cs:line 25
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

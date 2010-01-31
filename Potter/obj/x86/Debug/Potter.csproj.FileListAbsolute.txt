@@ -1,0 +1,5 @@
+C:\Users\Rogério Augusto\documents\visual studio 2010\Projects\Potter\Potter\bin\Debug\Potter.exe
+C:\Users\Rogério Augusto\documents\visual studio 2010\Projects\Potter\Potter\bin\Debug\Potter.pdb
+C:\Users\Rogério Augusto\documents\visual studio 2010\Projects\Potter\Potter\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Rogério Augusto\documents\visual studio 2010\Projects\Potter\Potter\obj\x86\Debug\Potter.exe
+C:\Users\Rogério Augusto\documents\visual studio 2010\Projects\Potter\Potter\obj\x86\Debug\Potter.pdb
